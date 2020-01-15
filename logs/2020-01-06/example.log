@@ -1,0 +1,639 @@
+[2020-01-06 14:53:59] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:51)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:170)
+
+[2020-01-06 14:54:39] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:171)
+
+[2020-01-06 14:55:31] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:171)
+
+[2020-01-06 14:55:31] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:31] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:32] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:32] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:32] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:32] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:32] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:33] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:33] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:33] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:33] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:33] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:34] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:34] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:34] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:34] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:34] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:35] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:35] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:35] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:35] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:35] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:36] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:36] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:36] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:36] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:37] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:38] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:39] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:39] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:39] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:40] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:40] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:40] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:40] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:40] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:41] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:41] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:41] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:41] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:41] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:42] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:42] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:42] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:42] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:42] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:43] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:43] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:43] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:43] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:43] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:44] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:44] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:44] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:44] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:44] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:45] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:45] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:45] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:45] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:45] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:46] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:46] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:46] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:47] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:48] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:49] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:49] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:49] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:50] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:50] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:50] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:50] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:50] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:51] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:51] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:51] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:51] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:52] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:52] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:52] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:52] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:52] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:53] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:53] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:53] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:53] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:53] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:54] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:54] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:54] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:54] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:54] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:55] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:55] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:55] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:55] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:55] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:56] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:56] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:56] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:56] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:56] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
+[2020-01-06 14:55:57] canal[example]:java.lang.NullPointerException
+	at com.cbs.common.RedisApi.<init>(RedisApi.java:34)
+	at com.cbs.dataload.SyncRedis.process(SyncRedis.java:52)
+	at com.cbs.dataload.SyncRedis.run(SyncRedis.java:74)
+	at com.cbs.dataload.SyncRedis.main(SyncRedis.java:172)
+
