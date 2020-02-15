@@ -53,7 +53,7 @@ public class CanalClient {
 
 //            int totalEmptyCount = 120;
 //            while (emptyCount < totalEmptyCount) {
-//                Message message = connector.getWithoutAck(batchSize); // 获取指定数量的数据
+//                MessageRecord message = connector.getWithoutAck(batchSize); // 获取指定数量的数据
 //                long batchId = message.getId();
 //                int size = message.getEntries().size();
 //                if (batchId == -1 || size == 0) {
@@ -130,17 +130,21 @@ public class CanalClient {
 
                 if (eventType == EventType.DELETE) {
                     after = printColumn(rowData.getBeforeColumnsList());
-                    redisDelete(tableName,rowData.getBeforeColumnsList());
+//                    redisDelete(tableName,rowData.getBeforeColumnsList());
+                    mongodbDelete(tableName,rowData.getBeforeColumnsList());
                 } else if (eventType == EventType.INSERT) {
                     after = printColumn(rowData.getAfterColumnsList());
-                    redisInsert(tableName,rowData.getAfterColumnsList());
+//                    redisInsert(tableName,rowData.getAfterColumnsList());
+                    mongodbInsert(tableName,rowData.getAfterColumnsList());
                 } else {
                     System.out.println("-------&gt; before");
                     before = printColumn(rowData.getBeforeColumnsList());
                     System.out.println("-------&gt; after");
                     after = printColumn(rowData.getAfterColumnsList());
-                    redisUpdate(tableName,rowData.getBeforeColumnsList());
-                    redisUpdate(tableName,rowData.getAfterColumnsList());
+
+                    mongdbUpdate(tableName,rowData.getBeforeColumnsList(),rowData.getAfterColumnsList());
+//                    redisUpdate(tableName,rowData.getBeforeColumnsList());
+//                    redisUpdate(tableName,rowData.getAfterColumnsList());
                 }
 
                 String row_data = header_str + row_str + "\"before\":" +before + ",\"after\":" + after + ",\"time\":\"" + timeStr +"\"}";

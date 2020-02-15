@@ -1,31 +1,58 @@
 package com.cbs.entity;
 
 public class User {
-    private int id;
-    private String userName;
-    private int userId;
+    private long user_id;
+    private String user_name;
+    private long identity_number;
+    private int user_level;
+    private String user_address;
+    private int age;
 
-    public int getId() {
-        return id;
+    public int getAge() {
+        return age;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public String getUserName() {
-        return userName;
+    public long getUser_id() {
+        return user_id;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUser_id(long user_id) {
+        this.user_id = user_id;
     }
 
-    public int getUserId() {
-        return userId;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
+    }
+
+    public long getIdentity_number() {
+        return identity_number;
+    }
+
+    public void setIdentity_number(long identity_number) {
+        this.identity_number = identity_number;
+    }
+
+    public int getUser_level() {
+        return user_level;
+    }
+
+    public void setUser_level(int user_level) {
+        this.user_level = user_level;
+    }
+
+    public String getUser_address() {
+        return user_address;
+    }
+
+    public void setUser_address(String user_address) {
+        this.user_address = user_address;
     }
 }

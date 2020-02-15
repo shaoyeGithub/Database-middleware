@@ -16,4 +16,6 @@ public interface UserDao {
 
     @Insert("insert into user_info(user_id,user_name) values(#{user_id},#{user_name})")
     void insertUser(@Param("user_id") long user_id, @Param("user_name") String user_name) ;
+
+
 }

@@ -5,7 +5,6 @@ import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author : TerryZhang
@@ -13,14 +12,14 @@ import java.util.Map;
  */
 @Mapper
 @Component
-public interface PackageDao {
+public interface DataPackageDao {
     @Insert("")
     void insertPackage();
 
-    @Select("select * from package_info where package_id=#{package_id}")
+    @Select("select * from data_package_info where package_id=#{package_id}")
     TelPackage selectPackage(@Param("package_id") int package_id);
 
-    @Select("select * from package_info")
+    @Select("select * from data_package_info")
     List<TelPackage> selectPackages();
 
     @Update("")

@@ -16,12 +16,15 @@ public interface PhoneNumberService {
     //注册电话
     void registerPhoneNumber(PhoneNumber number);
 
-    //查询具体电话
-    void queryPhoneNumber(PhoneNumber number);
-
     // 查询话费
     int queryMoney(PhoneNumber number);
+    void updateMoney(PhoneNumber number,int consumeMoney);
+
+    int queryPackageID(PhoneNumber number);
 
     //查询所有电话
     List<Long> queryAllPhoneNumber();
+
+    //查询电话实体
+    PhoneNumber queryPhoneNumber(long telNumber);
 }

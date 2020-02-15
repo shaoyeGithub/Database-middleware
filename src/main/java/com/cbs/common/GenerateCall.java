@@ -1,6 +1,10 @@
 package com.cbs.common;
 
+import com.cbs.entity.CallRecord;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -10,35 +14,39 @@ import java.util.List;
  * @date : 2020/1/7
  */
 public class GenerateCall {
-    private String callNumber;
-    private String calledNumber;
-    private String startTime;
-    private String endTime;
+    private long callNumber;
+    private long calledNumber;
+    private Date startTime;
+    private Date endTime;
+    private long second;
 
-    public String getOneRecord(){
-        callNumber = GenerateTel.getTel();
-        calledNumber = GenerateTel.getTel();
+    public CallRecord getOneRecord(){
+        CallRecord callRecord = new CallRecord();
+        callNumber = Long.parseLong(GenerateTel.getTel());
+        calledNumber = Long.parseLong(GenerateTel.getTel());
         startTime = GenerateTime.getTime();
         endTime = GenerateTime.getEndTime(startTime);
+        second = GenerateTime.getTimeSub(startTime,endTime);
 
-        String res = "callNumber:" + callNumber+" calledNumber:"+calledNumber+" startTime:"+startTime+" endTime:"+ endTime;
-        return  res;
-//        System.out.println(callNumber);
-//        System.out.println(calledNumber);
-//        System.out.println(startTime);
-//        System.out.println(endTime);
+        callRecord.setCalledNumber(calledNumber);
+        callRecord.setCallNumber(callNumber);
+        callRecord.setStartTime(startTime);
+        callRecord.setEndTime(endTime);
+        callRecord.setSecond(second);
+
+        return callRecord;
     }
 
-    public List<String> getRecords(int nums){
-        List<String> list = new ArrayList<>();
+    public List<CallRecord> getRecords(int nums){
+        List<CallRecord> callRecords = new ArrayList<>();
         for (int i = 0; i < nums; i++) {
-            String str =  getOneRecord();
-            list.add(str);
+            CallRecord callRecord =  getOneRecord();
+            callRecords.add(callRecord);
         }
-        return list;
+        return callRecords;
     }
-    public void printRecords(List<String> list){
-        for (Iterator<String> it = list.iterator(); it.hasNext();){
+    public void printRecords(List<CallRecord> list){
+        for (Iterator<CallRecord> it = list.iterator(); it.hasNext();){
             System.out.println(it.next());
         }
     }

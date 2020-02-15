@@ -1,9 +1,8 @@
 package com.cbs.dao;
 
 import com.cbs.entity.CallRecord;
-import org.apache.ibatis.annotations.*;
+import com.cbs.entity.MessageRecord;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Component;
 
 /**
  * @author : TerryZhang
@@ -11,8 +10,8 @@ import org.springframework.stereotype.Component;
  * @date : 2020/1/7
  */
 
-public interface CallRecordDao extends MongoRepository<CallRecord,Long> {
+public interface MessageRecordDao extends MongoRepository<MessageRecord,Long> {
 
-    CallRecord findByCallNumber(Long callNumber);
+    MessageRecord findByCallNumber(Long callNumber);
 
 }

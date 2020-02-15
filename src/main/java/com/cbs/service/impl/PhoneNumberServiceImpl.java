@@ -8,6 +8,8 @@ import com.cbs.entity.PhoneNumber;
 import com.cbs.service.PhoneNumberService;
 import org.apache.ibatis.session.SqlSession;
 import org.mybatis.spring.annotation.MapperScan;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -27,6 +29,7 @@ import java.util.List;
  */
 @Service
 public class PhoneNumberServiceImpl implements PhoneNumberService {
+    static final Logger logger = LoggerFactory.getLogger(PhoneNumberServiceImpl.class);
     @Autowired
     PhoneDao phoneDao;
 
@@ -35,6 +38,7 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
     @CacheEvict("PhoneNumberList")
     //插入1000条电话信息
     public void registerPhoneNumber(PhoneNumber phoneNumber){
+        logger.info("registerPhoneNumber");
 //        System.out.println(phoneDao);
 //        phoneDao.insertPhoneNumber(18240442368L,1);
         phoneDao.insertPhoneNumber(phoneNumber.getPhone_number(),phoneNumber.getSeg_id());
@@ -51,14 +55,16 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
         return 0;
     }
 
-    @Override
-    public void queryPhoneNumber(PhoneNumber number){
 
-    }
 
     @Override
     public int queryMoney(PhoneNumber number){
         return phoneDao.selectMoney(number.getPhone_number(),number.getSeg_id());
+    }
+
+    @Override
+    public  int queryPackageID(PhoneNumber phoneNumber){
+        return phoneDao.selectPackageID(phoneNumber.getPhone_number(),phoneNumber.getSeg_id());
     }
 
     @Override
@@ -67,6 +73,16 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
         return phoneDao.selectAllPhoneNumber(1);
     }
 
+    @Override
+    public void updateMoney(PhoneNumber number,int consumeMoney){
+        logger.info("updateMoney");
+        int newMoney = number.getMoney()-consumeMoney;
+        phoneDao.updateMoney(newMoney,number.getPhone_number());
+    }
 
-
+    @Override
+    public  PhoneNumber queryPhoneNumber(long telNumber){
+        logger.info("queryPhoneNumber");
+        return phoneDao.selectPhoneNumber(telNumber);
+    }
 }

@@ -6,8 +6,15 @@ public class PhoneNumber {
     private int seg_id;
     private int package_id;
     private int money;
+    private int all_consume_money;
 
+    public int getAllConsumeMoney() {
+        return all_consume_money;
+    }
 
+    public void setAllConsumeMoney(int all_consume_money) {
+        this.all_consume_money = all_consume_money;
+    }
 
     public void setPhone_id(int phone_id) {
         this.phone_id = phone_id;

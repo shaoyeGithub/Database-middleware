@@ -3,6 +3,8 @@ package com.cbs.controller;
 import com.cbs.common.GenerateTel;
 import com.cbs.entity.PhoneNumber;
 import com.cbs.service.impl.PhoneNumberServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Controller;
@@ -21,12 +23,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/phoneNumber")
 public class PhoneNumberController {
+    static final Logger logger = LoggerFactory.getLogger(PhoneNumberController.class);
     @Autowired
     public PhoneNumberServiceImpl phoneNumberService;
 
     @RequestMapping("registerPhoneNumber")
     public void insertPhoneNumber(){
-        System.out.println("RegisterPhoneNUmber");
+        logger.info("RegisterPhoneNUmber");
         PhoneNumber phoneNumber = new PhoneNumber();
         String tel = GenerateTel.getTel();
         int phone_seg = Integer.parseInt(tel.substring(0,3));
@@ -39,20 +42,36 @@ public class PhoneNumberController {
 
     @RequestMapping("queryAllPhoneNumber")
     public void queryAllPhoneNumber(){
-        System.out.println("queryAllPhoneNumber");
+        logger.info("queryAllPhoneNumber");
         List<Long> list = phoneNumberService.queryAllPhoneNumber();
         for (Iterator it2 = list.iterator(); it2.hasNext();) {
             System.out.println(it2.next());
         }
     }
+
     @RequestMapping("queryPhoneNumberMoney")
-    public void queryPhoneNumberMoney(){
-        System.out.println("queryPhoneNumberMoney");
+    public int queryPhoneNumberMoney(long telnumber){
+        logger.info("queryPhoneNumberMoney");
+
         PhoneNumber phoneNumber = new PhoneNumber();
-        phoneNumber.setPhone_number(18204008510L);
+        phoneNumber.setPhone_number(telnumber);
         phoneNumber.setSeg_id(1);
-        System.out.println("money:"+phoneNumberService.queryMoney(phoneNumber));
+
+        int queryMoney = phoneNumberService.queryMoney(phoneNumber);
+        System.out.println("money:" + queryMoney);
+
+        return queryMoney;
     }
+
+    @RequestMapping("queryPackageID")
+    public void queryPackageID(long telnumber){
+        logger.info("queryPackageID");
+        PhoneNumber phoneNumber = new PhoneNumber();
+        phoneNumber.setPhone_number(telnumber);
+        phoneNumber.setSeg_id(1);
+        logger.info("money:"+phoneNumberService.queryPackageID(phoneNumber));
+    }
+
 
     public static void main(String[] args) {
         PhoneNumberController phoneNumberController = new PhoneNumberController();

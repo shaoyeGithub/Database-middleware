@@ -46,11 +46,11 @@ public class GenerateTime {
         return rtn;
     }
 
-    public static String getTime(){
+    public static Date getTime(){
         Date randomDate = randomDate("2020-01-01", "2020-01-31");
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         String result = format.format(randomDate);
-        return result;
+        return toDate(result,FORMAT_ONE);
 
     }
 
@@ -67,9 +67,9 @@ public class GenerateTime {
     }
 
 
-    public static long timeSub(String firstTime, String secTime) {
-        long first = toDate(firstTime, FORMAT_ONE).getTime();
-        long second = toDate(secTime, FORMAT_ONE).getTime();
+    public static long getTimeSub(Date firstTime, Date secTime) {
+        long first = firstTime.getTime();
+        long second = secTime.getTime();
         return (second - first) / 1000;
     }
     
@@ -78,13 +78,13 @@ public class GenerateTime {
         return (long)(Math.random()*(end-start+1)+start);
     }
     
-    public static String getEndTime(String startTime){
-        long first = toDate(startTime, FORMAT_ONE).getTime();
+    public static Date getEndTime(Date startTime){
+        long first = startTime.getTime();
         long second =getNum(1,1000)*1000;
         SimpleDateFormat sdf= new SimpleDateFormat(FORMAT_ONE);
         Date endTime = new Date(first+second);
-        String str = sdf.format(endTime);
-        return str;
+//        String str = sdf.format(endTime);
+        return endTime;
         
     }
     
