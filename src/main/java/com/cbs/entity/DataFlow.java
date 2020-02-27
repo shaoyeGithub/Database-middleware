@@ -1,8 +1,9 @@
 package com.cbs.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class DataFlow {
+public class DataFlow implements Serializable {
     private long useNumber;
     private int session;
     private Date sendTime;

@@ -71,7 +71,7 @@ public class RedisUtil {
         } catch (Exception e) {
             e.printStackTrace();
             if (jedis != null) {
-                pool.returnBrokenResource(jedis);
+                jedis.close();
             }
         }
         return jedis;
@@ -85,9 +85,9 @@ public class RedisUtil {
     protected static void closeResource(Jedis jedis, boolean isBroken) {
         try {
             if (isBroken) {
-                pool.returnBrokenResource(jedis);
+                jedis.close();
             } else {
-                pool.returnResource(jedis);
+                jedis.close();
             }
         } catch (Exception e) {
 
@@ -183,8 +183,8 @@ public class RedisUtil {
 
             prop.load(in);
 
-            String conf_redis_host = prop.getProperty("redis.host");
-            String conf_redis_port = prop.getProperty("redis.port");
+            String conf_redis_host = prop.getProperty("spring,redis.host");
+            String conf_redis_port = prop.getProperty("spring.redis.port");
             String conf_redis_user = prop.getProperty("redis.user");
             String conf_redis_pass = prop.getProperty("redis.pass");
             String conf_redis_queuename = prop.getProperty("redis.queuename");

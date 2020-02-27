@@ -1,5 +1,6 @@
 package com.cbs.dao;
 
+import com.cbs.cache.RedisCache;
 import com.cbs.entity.TelPackage;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;

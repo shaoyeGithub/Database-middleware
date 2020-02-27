@@ -68,6 +68,9 @@ public class Connect {
 
 
     public static void main(String[] args) {
+
         System.out.println("213");
+        Connect conn = new Connect();
+        conn.connectRedis("127.0.0.1");
     }
 }

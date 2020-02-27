@@ -1,25 +1,16 @@
 package com.cbs.service.impl;
 
-import com.cbs.business.object.BusinessObject;
-import com.cbs.business.object.BusinessObjectMapper;
-import com.cbs.common.GenerateTel;
 import com.cbs.dao.PhoneDao;
 import com.cbs.entity.PhoneNumber;
 import com.cbs.service.PhoneNumberService;
-import org.apache.ibatis.session.SqlSession;
-import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -70,7 +61,7 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
     @Override
     @Cacheable("PhoneNumberList")
     public List<Long> queryAllPhoneNumber(){
-        return phoneDao.selectAllPhoneNumber(1);
+        return phoneDao.selectAllPhoneNumber(2);
     }
 
     @Override

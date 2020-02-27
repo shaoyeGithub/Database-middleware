@@ -1,5 +1,6 @@
 package com.cbs.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -10,7 +11,8 @@ import java.util.Date;
  设置三种通信套餐 首先计算套餐余量是否够，然后按照计算方式
  */
 
-public class TelPackage {
+public class TelPackage implements Serializable {
+    private static final long serialVersionUID = -4804144806397193765L;
     private int package_id;
     private int id;
     private int package_money;

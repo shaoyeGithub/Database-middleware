@@ -1,5 +1,6 @@
 package com.cbs.dao;
 
+import com.cbs.cache.RedisCache;
 import com.cbs.entity.PhoneNumber;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Mapper
 @Component(value ="PhoneDao")
+
 public interface PhoneDao {
     @Insert("insert into phone_number(phone_number,seg_id) values(#{phone_number},#{seg_id})")
     void insertPhoneNumber(@Param("phone_number") long phone_number, @Param("seg_id") int seg_id) ;

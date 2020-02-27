@@ -1,6 +1,9 @@
 package com.cbs.entity;
 
-public class PhoneNumber {
+import java.io.Serializable;
+
+public class PhoneNumber implements Serializable {
+    private static final long serialVersionUID = -5010118025280186307L;
     private long phone_id;
     private long phone_number;
     private int seg_id;

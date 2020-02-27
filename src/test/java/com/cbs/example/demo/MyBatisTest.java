@@ -1,7 +1,5 @@
 package com.cbs.example.demo;
 
-import com.cbs.business.object.BusinessObject;
-import com.cbs.business.object.BusinessObjectMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -25,11 +23,11 @@ public class MyBatisTest {
     }
 
     public static void main(String[] args) {
-        SqlSession sqlSession = getSessionFactory().openSession();
-        BusinessObjectMapper BusinessObjectMapper = sqlSession.getMapper(BusinessObjectMapper.class);
-        BusinessObject businessObject = BusinessObjectMapper.findByBOID(1);
-        System.out.println("连接成功了？");
-        System.out.println(businessObject.getBusinessObjectName());
+//        SqlSession sqlSession = getSessionFactory().openSession();
+//        BusinessObjectMapper BusinessObjectMapper = sqlSession.getMapper(BusinessObjectMapper.class);
+//        BusinessObject businessObject = BusinessObjectMapper.findByBOID(1);
+//        System.out.println("连接成功了？");
+//        System.out.println(businessObject.getBusinessObjectName());
     }
 }
 
